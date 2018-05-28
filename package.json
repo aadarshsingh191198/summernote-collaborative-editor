@@ -9,7 +9,7 @@
   "author": "Shannon Duncan aka ShadowCodex",
   "license": "MIT",
   "dependencies": {
-    "express": "^4.14.0",
+    "express": "^4.16.3",
     "rethinkdb": "^2.3.2",
     "socket.io": "^1.4.6"
   }
