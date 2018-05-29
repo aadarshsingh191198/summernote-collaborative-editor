@@ -69,6 +69,9 @@ r.connect({ host: "localhost", port: 28015 }, function(err, conn) {
   });
 });
 
+
+// app.use(express.static(__dirname + '/src/icons/templates'));
+
 // Serve HTML
 app.get("/", function(req, res) {
   res.sendFile(__dirname + "/index.html");
